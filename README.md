@@ -3,7 +3,6 @@
 
 A Epl‘s QQ robot framework based on Mirai API HTTP, developing...
 
-***
 ## 更多信息
 [mirai](https://github.com/mamoe/mirai)：一个在全平台下运行，提供 QQ Android 协议支持的高效率机器人库
 
@@ -11,7 +10,6 @@ A Epl‘s QQ robot framework based on Mirai API HTTP, developing...
 
 [mirai-api-http](https://github.com/project-mirai/mirai-api-http)：提供HTTP API供所有语言使用mirai
 
-***
 ## 介绍
   本项目基于`mirai-api-http`的`websocket server` 接口实现易语言对`mirai`的调用
 ## 环境配置
