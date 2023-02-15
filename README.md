@@ -29,6 +29,7 @@ A Epl‘s QQ robot framework based on Mirai API HTTP, developing...
 ### 配置`mirai-api-http`
 
   1.编辑`config/net.mamoe.mirai-api-http/setting.yml`配置文件 (没有则自行创建)
+
   2.启动MCL `./mcl`
 #### setting.yml模板
 
@@ -69,14 +70,25 @@ heartbeat:
 adapterSettings:
   ws:
     host: localhost
+    ## port 端口号
     port: 8080
     reservedSyncId: -1
 ```
 ### 在MCL中登陆bot
+- 登录
+`/<login|登录> [qq] [password]`
+- 设置自动登录
+`/<autoLogin|自动登录> add [qq] [password] `
+
+> 更多信息请参见[Mirai Console - BuiltIn Commands (Mirai Console 内置指令)](https://docs.mirai.mamoe.net/console/BuiltInCommands.html)
+
+
 
 ## 开始开发
 （1）将本项目拉取(下载)到本地
-（2）在`ws_连接()`中填写ip地址，端口号，`verifyKey`及MCL中登陆的bot的QQ
+
+（2）在`ws_连接_远程()`中填写`ip地址`，`端口号`，`verifyKey`及MCL中登陆的bot的`QQ`【ws_连接_本地()中不填写`ip地址`】
+
 （3）开始开发，您可以参考本项目中的写法
 ***
 ## 实现功能
@@ -116,7 +128,7 @@ adapterSettings:
   - @全体成员      √
   - QQ表情        √
   - 文字          √
-  - 图片          
+  - 图片          √(jpg，jpeg，png等常见图片格式)
   - 闪照
   - 语音
   - Xml
