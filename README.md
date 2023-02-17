@@ -128,7 +128,7 @@ adapterSettings:
   - @全体成员      √
   - QQ表情        √
   - 文字          √
-  - 图片          √(jpg，jpeg，png等常见图片格式)
+  - 图片          √
   - 闪照
   - 语音
   - Xml
