@@ -1,3 +1,4 @@
+# 由于mirai已停止更新，本项目已归档，暂停维护！
 # mirai-epl
 基于mirai-api-http的易语言QQ机器人框架，开发ing...
 
